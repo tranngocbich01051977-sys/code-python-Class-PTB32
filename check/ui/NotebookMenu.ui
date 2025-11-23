@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Menu</class>
+ <widget class="QMainWindow" name="Menu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>958</width>
+    <height>679</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QWidget" name="widget" native="true">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 248, 237);
+border: 1px solid black;
+border-radius: 20px;</string>
+      </property>
+      <widget class="QWidget" name="widget_2" native="true">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>10</y>
+         <width>71</width>
+         <height>580</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius: 20px;</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit">
+       <property name="geometry">
+        <rect>
+         <x>340</x>
+         <y>40</y>
+         <width>351</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 0px;
+font: 75 40pt &quot;MS Serif&quot;;
+font: 48pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Notebook</string>
+       </property>
+      </widget>
+      <widget class="QTextEdit" name="textEdit">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>180</y>
+         <width>211</width>
+         <height>381</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 170, 127);</string>
+       </property>
+      </widget>
+      <widget class="QTextEdit" name="textEdit_2">
+       <property name="geometry">
+        <rect>
+         <x>410</x>
+         <y>180</y>
+         <width>211</width>
+         <height>181</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 85, 127);</string>
+       </property>
+      </widget>
+      <widget class="QTextEdit" name="textEdit_3">
+       <property name="geometry">
+        <rect>
+         <x>410</x>
+         <y>380</y>
+         <width>211</width>
+         <height>181</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(206, 210, 255);</string>
+       </property>
+      </widget>
+      <widget class="QTextEdit" name="textEdit_4">
+       <property name="geometry">
+        <rect>
+         <x>690</x>
+         <y>180</y>
+         <width>211</width>
+         <height>381</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(170, 255, 255);</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pb_editbrown">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>520</y>
+         <width>93</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 170, 127);</string>
+       </property>
+       <property name="text">
+        <string>Edit</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pb_editpink">
+       <property name="geometry">
+        <rect>
+         <x>470</x>
+         <y>320</y>
+         <width>93</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 85, 127);</string>
+       </property>
+       <property name="text">
+        <string>Edit</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pb_editpurple">
+       <property name="geometry">
+        <rect>
+         <x>470</x>
+         <y>520</y>
+         <width>93</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(206, 210, 255);</string>
+       </property>
+       <property name="text">
+        <string>Edit</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pb_editblue">
+       <property name="geometry">
+        <rect>
+         <x>750</x>
+         <y>520</y>
+         <width>93</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(170, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Edit</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>170</x>
+         <y>190</y>
+         <width>141</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 0px;
+font: 14pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(255, 170, 127);
+</string>
+       </property>
+       <property name="text">
+        <string>Lorem Ipsum</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_2">
+       <property name="geometry">
+        <rect>
+         <x>450</x>
+         <y>190</y>
+         <width>141</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 0px;
+font: 14pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(255, 85, 127);
+</string>
+       </property>
+       <property name="text">
+        <string>Lorem Ipsum</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_3">
+       <property name="geometry">
+        <rect>
+         <x>440</x>
+         <y>390</y>
+         <width>141</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 0px;
+font: 14pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(206, 210, 255);
+</string>
+       </property>
+       <property name="text">
+        <string>Lorem Ipsum</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_4">
+       <property name="geometry">
+        <rect>
+         <x>730</x>
+         <y>200</y>
+         <width>141</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 0px;
+font: 14pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(170, 255, 255);
+</string>
+       </property>
+       <property name="text">
+        <string>Lorem Ipsum</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>958</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
